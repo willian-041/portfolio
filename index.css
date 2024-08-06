@@ -92,3 +92,14 @@ footer p {
 .imagem-link img:hover {
     transform: scale(1.05);
 }
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li  {
+    margin: 0%;
+    padding: 0%;
+}
