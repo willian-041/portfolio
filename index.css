@@ -1,0 +1,94 @@
+body {
+    background-color: #121212; /* Cor de fundo escura */
+    color: #d1d1d1; /* Texto padrão em cor clara */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #1f1f1f;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #333;
+}
+
+header h1 {
+    color: #30b0aa; /* Cor metálica para o título */
+    font-size: 2.5em;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #30b0aa; /* Cor metálica clara para links */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #30b0aa; /* Cor metálica dourada ao passar o mouse */
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+}
+
+h2 {
+    color: #30b0aa; /* Cor metálica para títulos de seção */
+    font-size: 2em;
+}
+
+.projeto {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #0a0a0a;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #242323;
+}
+
+footer p {
+    margin: 0;
+    color: #d1d1d1;
+    font-size: large;
+}
+
+.imagem-link {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imagem-link img {
+    width: 300px; /* Ajuste o tamanho conforme necessário */
+    border: 2px solid #151414;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.imagem-link img:hover {
+    transform: scale(1.05);
+}
